@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Industrial Vera</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #444;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #555;
+        }
+        .gallery img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+        }
+        .blog-post {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        .contact-form, .order-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea, .order-form input, .order-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button, .order-form button {
+            background-color: #444;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover, .order-form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Diseño Industrial Vera</h1>
+        <p>Creación de diseño industrial, planos industriales, experiencia en herramentales y forja</p>
+    </header>
+    <nav>
+        <a href="#galeria">Galería de Fotos</a>
+        <a href="#blog">Blog</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#pedidos">Pedidos</a>
+    </nav>
+    <div class="container">
+        <section id="galeria" class="section gallery">
+            <h2>Galería de Fotos</h2>
+            <img src="foto1.jpg" alt="Foto 1">
+            <img src="foto2.jpg" alt="Foto 2">
+            <img src="foto3.jpg" alt="Foto 3">
+        </section>
+        <section id="blog" class="section blog">
+            <h2>Blog</h2>
+            <div class="blog-post">
+                <h3>Título del Post 1</h3>
+                <p>Contenido del post 1...</p>
+            </div>
+            <div class="blog-post">
+                <h3>Título del Post 2</h3>
+                <p>Contenido del post 2...</p>
+            </div>
+        </section>
+        <section id="contacto" class="section contact">
+            <h2>Contacto</h2>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo Electrónico" required>
+                <textarea name="message" placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section id="pedidos" class="section orders">
+            <h2>Pedidos</h2>
+            <form class="order-form">
+                <input type="text" name="name" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo Electrónico" required>
+                <textarea name="order-details" placeholder="Detalles del pedido" required></textarea>
+                <button type="submit">Enviar Pedido</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
